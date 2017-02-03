@@ -40,6 +40,28 @@ class SearchTest(unittest.TestCase):
         # name of the product
         #for product in products:
         #    print (product.text)
+
+    def test_search_by_name(self):
+        # get the search textbox
+        # search_field = driver.find_elements_by_css(".fa.fa-search")
+        self.search_field = self.driver.find_element_by_xpath(".//*[@id='nav-main']/div/div[2]/div[1]/a[2]/i")
+
+        self.search_field.click()
+
+        # enter search keyword and submit
+        self.search_field_extended = self.driver.find_element_by_id('edit-keys')
+        self.search_field_extended.clear()
+        self.search_field_extended.send_keys("salt shaker")
+        self.search_field_extended.submit()
+
+        # get all the anchor elements which have product names displayed
+        # currently on result page using find_elements_by_xpath method
+        result = self.driver.find_element_by_class_name("result-snippet")
+
+        # get the number of anchor elements found
+        # print ("Found " + str(len(products)) + " products:")
+        self.assertEqual('No results', result.text)
+
     def tearDown(self):
 
         # close the browser window

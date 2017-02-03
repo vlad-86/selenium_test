@@ -41,3 +41,55 @@
 1486072854292	Marionette	INFO	Listening on port 58282
 1486072855355	Marionette	WARN	Using deprecated data structure for setting timeouts
 [Child 4400] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486156373785	geckodriver	INFO	Listening on 127.0.0.1:60120
+1486156375807	mozprofile::profile	INFO	Using profile path C:\Temp\rust_mozprofile.svXVVPPAqsG3
+1486156375815	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486156376090	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60127
+1486156376735	Marionette	INFO	Listening on port 60127
+1486156378197	Marionette	WARN	Using deprecated data structure for setting timeouts
+[Child 10080] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486156607579	geckodriver	INFO	Listening on 127.0.0.1:60323
+1486156609338	mozprofile::profile	INFO	Using profile path C:\Temp\rust_mozprofile.5I9zsa6s9LIF
+1486156609346	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486156609384	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60329
+1486156610142	Marionette	INFO	Listening on port 60329
+1486156611264	Marionette	WARN	Using deprecated data structure for setting timeouts
+[Child 8584] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 8584] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486156671810	geckodriver	INFO	Listening on 127.0.0.1:60507
+1486156673796	mozprofile::profile	INFO	Using profile path C:\Temp\rust_mozprofile.qBUADtn0QK4k
+1486156673804	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486156673843	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60514
+1486156674420	Marionette	INFO	Listening on port 60514
+1486156675531	Marionette	WARN	Using deprecated data structure for setting timeouts
+[Child 8808] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 8808] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486157284365	geckodriver	INFO	Listening on 127.0.0.1:61046
+1486157286331	mozprofile::profile	INFO	Using profile path C:\Temp\rust_mozprofile.DPVk6dzlZ5c6
+1486157286340	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486157286373	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61052
+1486157287114	Marionette	INFO	Listening on port 61052
+1486157288251	Marionette	WARN	Using deprecated data structure for setting timeouts
+[Child 5812] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486157323244	geckodriver	INFO	Listening on 127.0.0.1:61225
+1486157325228	mozprofile::profile	INFO	Using profile path C:\Temp\rust_mozprofile.Ik44PJrGKWVG
+1486157325230	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486157325246	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61231
+1486157325801	Marionette	INFO	Listening on port 61231
+1486157326977	Marionette	WARN	Using deprecated data structure for setting timeouts
+[Child 7048] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486157560343	geckodriver	INFO	Listening on 127.0.0.1:61421
+1486157562340	mozprofile::profile	INFO	Using profile path C:\Temp\rust_mozprofile.2eqfW4AWFZ6w
+1486157562348	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486157562386	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61427
+1486157562942	Marionette	INFO	Listening on port 61427
+1486157564056	Marionette	WARN	Using deprecated data structure for setting timeouts
+[Child 5964] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 5964] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1486157583780	geckodriver	INFO	Listening on 127.0.0.1:61587
+1486157585768	mozprofile::profile	INFO	Using profile path C:\Temp\rust_mozprofile.H7IivCn7y07I
+1486157585772	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1486157585786	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61594
+1486157586355	Marionette	INFO	Listening on port 61594
+1486157587546	Marionette	WARN	Using deprecated data structure for setting timeouts
+[Child 4704] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
