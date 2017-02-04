@@ -1,6 +1,8 @@
 import time
 
 
+
+# Example one
 def timer(func):
     def tmp(*args):
         t = time.time()
@@ -12,6 +14,20 @@ def timer(func):
 
 @timer
 def sum1(x, y):
-    return time.sleep(3)
+    return time.sleep(1)
 
 sum1(1, 2)
+
+# Example two
+def my_decorator(f):
+    def wrapper():
+        print('do smth before initial function call')
+        f()
+        print('do smth after initial function call')
+    return wrapper
+
+@my_decorator
+def main_func():
+    print('Inside main function')
+
+main_func()
