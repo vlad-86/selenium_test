@@ -1,18 +1,22 @@
 import unittest
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
+import time
 
 
 
 class SearchTest(unittest.TestCase):
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
 
         # create a new Firefox session
-        self.driver = webdriver.Firefox()
-        self.driver.implicitly_wait(10)
-        self.driver.maximize_window()
+        cls.driver = webdriver.Firefox()
+        cls.driver.implicitly_wait(10)
+        cls.driver.maximize_window()
 
         # navigate to the application home page
-        self.driver.get("http://demo.magentocommerce.com/")
+        cls.driver.get("http://demo.magentocommerce.com/")
 
     def test_search_by_category(self):
 
@@ -47,11 +51,13 @@ class SearchTest(unittest.TestCase):
         self.search_field = self.driver.find_element_by_xpath(".//*[@id='nav-main']/div/div[2]/div[1]/a[2]/i")
 
         self.search_field.click()
+        time.sleep(5)
 
         # enter search keyword and submit
         self.search_field_extended = self.driver.find_element_by_id('edit-keys')
         self.search_field_extended.clear()
         self.search_field_extended.send_keys("salt shaker")
+        time.sleep(6)
         self.search_field_extended.submit()
 
         # get all the anchor elements which have product names displayed
@@ -62,11 +68,12 @@ class SearchTest(unittest.TestCase):
         # print ("Found " + str(len(products)) + " products:")
         self.assertEqual('No results', result.text)
 
-    def tearDown(self):
+    @classmethod
+    def tearDownClass(cls):
 
         # close the browser window
-        self.driver.quit()
+        cls.driver.quit()
 
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    unittest.main()

@@ -21,9 +21,10 @@ sum1(1, 2)
 # Example two
 def my_decorator(f):
     def wrapper():
-        print('do smth before initial function call')
+        print('do smth Before initial function call')
         f()
-        print('do smth after initial function call')
+        print('do smth After initial function call')
+
     return wrapper
 
 @my_decorator
